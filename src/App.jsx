@@ -6,7 +6,7 @@ class App extends Component {
 	render () {
 		return (
 			<div>
-        <div className="header">TallySticks</div>
+				<div className="header">TallySticks</div>
 				<UsersContainer/>
 			</div>
 		)
@@ -14,4 +14,3 @@ class App extends Component {
 }
 
 export default App
-erwtyuio

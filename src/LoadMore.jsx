@@ -35,9 +35,9 @@ class LoadMore extends Component {
 
 	render () {
 		return (
-      <div className="load-more-wrapper">
-        <div className="load-more" onClick={this.updatePagination.bind(this)}>Load more</div>
-      </div>
+			<div className="load-more-wrapper">
+				<div className="load-more" onClick={this.updatePagination.bind(this)}>Load more</div>
+			</div>
 		)
 	}
 }

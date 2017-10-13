@@ -12,7 +12,7 @@ class UsersList extends Component {
 		}
 
 		return (
-      <ul className="users-list">
+			<ul className="users-list">
 				{users.map(user => <User key={user.email} user={user}/>)}
 			</ul>
 		)

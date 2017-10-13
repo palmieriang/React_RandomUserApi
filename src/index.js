@@ -6,7 +6,7 @@ import App from './App'
 import './styles.scss'
 
 const load = () => render((
-  <AppContainer><App /></AppContainer>
+	<AppContainer><App /></AppContainer>
 ), document.getElementById('root'))
 
 if (module.hot) {

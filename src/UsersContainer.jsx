@@ -22,13 +22,13 @@ class UsersContainer extends Component {
 
 	render() {
 		const {users} = this.state
-			
+
 		return (
 			<div>
 				<UsersList users={users}/>
 				<LoadMore url={URL} callback={this.setUsers.bind(this)}/>
 			</div>
-		)		
+		)
 	}
 }
 
